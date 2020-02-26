@@ -17,7 +17,7 @@ import {DebugMetaActions} from 'app/stores/debugMetaStore';
 import {SymbolicatorStatus} from 'app/components/events/interfaces/types';
 import InlineSvg from 'app/components/inlineSvg';
 import {combineStatus} from 'app/components/events/interfaces/debugmeta';
-import {IconRefresh} from 'app/icons/iconRefresh';
+import {IconRefresh, IconAdd, IconSubtract} from 'app/icons';
 
 import FrameDefaultTitle from './frameDefaultTitle';
 import FrameContext from './frameContext';
@@ -149,7 +149,7 @@ export class Frame extends React.Component {
         className="btn btn-sm btn-default btn-toggle"
         css={this.getPlatform() === 'csharp' && {display: 'block !important'}} // remove important once we get rid of css files
       >
-        <span className={this.state.isExpanded ? 'icon-minus' : 'icon-plus'} />
+        {this.state.isExpanded ? <IconSubtract /> : <IconAdd />}
       </a>
     );
   }
