@@ -37,20 +37,13 @@ const config = {
 config.rules['import/order'] =
   eslintConfigSentryReactRulesImports['rules']['import/order'];
 
-// and includes the pathGroups and pathGroupsExcludedImportTypes property
-config.rules['import/order'][1] = {
-  ...config.rules['import/order'][1],
-  pathGroups: [
-    {
-      pattern: '@emotion/styled',
-      group: 'external',
-    },
-    {
-      pattern: 'sentry*/**',
-      group: 'internal',
-    },
-  ],
-  pathGroupsExcludedImportTypes: ['buildin'],
-};
+// and includes a package-specific rule pathGroups - @emotion/styled
+config.rules['import/order'][1]['pathGroups'] = [
+  ...config.rules['import/order'][1]['pathGroups'],
+  {
+    pattern: '@emotion/styled',
+    group: 'external',
+  },
+];
 
 module.exports = config;
