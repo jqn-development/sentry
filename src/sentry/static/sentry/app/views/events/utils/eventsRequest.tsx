@@ -210,6 +210,7 @@ class EventsRequest extends React.PureComponent<EventsRequestProps, EventsReques
 
     this.setState(state => ({
       reloading: state.timeseriesData !== null,
+      errored: false,
     }));
 
     try {

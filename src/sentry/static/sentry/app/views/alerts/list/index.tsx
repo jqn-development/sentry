@@ -1,5 +1,6 @@
 import {RouteComponentProps} from 'react-router/lib/Router';
 import DocumentTitle from 'react-document-title';
+import omit from 'lodash/omit';
 import React from 'react';
 import moment from 'moment';
 
@@ -19,6 +20,7 @@ import Link from 'app/components/links/link';
 import LoadingIndicator from 'app/components/loadingIndicator';
 import PageHeading from 'app/components/pageHeading';
 import Pagination from 'app/components/pagination';
+import overflowEllipsis from 'app/styles/overflowEllipsis';
 import getDynamicText from 'app/utils/getDynamicText';
 import space from 'app/styles/space';
 
@@ -65,9 +67,9 @@ class IncidentsList extends AsyncComponent<Props, State & AsyncComponent['state'
       <IncidentPanelItem key={incident.id}>
         <TableLayout>
           <TitleAndSparkLine>
-            <Link to={`/organizations/${orgId}/alerts/${incident.identifier}/`}>
+            <TitleLink to={`/organizations/${orgId}/alerts/${incident.identifier}/`}>
               {incident.title}
-            </Link>
+            </TitleLink>
             <SparkLine incident={incident} />
           </TitleAndSparkLine>
           <Status incident={incident} />
@@ -142,7 +144,7 @@ class IncidentsListContainer extends React.Component<Props> {
     const {router, params} = this.props;
     e.preventDefault();
 
-    navigateTo(`/settings/${params.orgId}/projects/:projectId/alerts-v2/`, router);
+    navigateTo(`/settings/${params.orgId}/projects/:projectId/alerts/`, router);
   };
 
   render() {
@@ -150,9 +152,9 @@ class IncidentsListContainer extends React.Component<Props> {
     const {pathname, query} = location;
     const {orgId} = params;
 
-    const openIncidentsQuery = {...query, status: 'open'};
-    const closedIncidentsQuery = {...query, status: 'closed'};
-    const allIncidentsQuery = {...query, status: 'all'};
+    const openIncidentsQuery = omit({...query, status: 'open'}, 'cursor');
+    const closedIncidentsQuery = omit({...query, status: 'closed'}, 'cursor');
+    const allIncidentsQuery = omit({...query, status: 'all'}, 'cursor');
 
     const status = getQueryStatus(query.status);
     return (
@@ -250,6 +252,11 @@ const TitleAndSparkLine = styled('div')`
   justify-content: space-between;
   align-items: center;
   padding-right: ${space(2)};
+  overflow: hidden;
+`;
+
+const TitleLink = styled(Link)`
+  ${overflowEllipsis}
 `;
 
 const IncidentPanelItem = styled(PanelItem)`

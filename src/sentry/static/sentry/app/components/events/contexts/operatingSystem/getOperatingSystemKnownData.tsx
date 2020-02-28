@@ -5,20 +5,20 @@ import getOperatingSystemKnownDataDetails from './getOperatingSystemKnownDataDet
 import {OperatingSystemKnownData, OperatingSystemKnownDataType} from './types';
 
 function getOperatingSystemKnownData(
-  data: OperatingSystemKnownData
+  data: OperatingSystemKnownData,
+  operatingSystemKnownDataValues: Array<OperatingSystemKnownDataType>
 ): Array<KeyValueListData> {
   const knownData: Array<KeyValueListData> = [];
 
-  const dataKeys = Object.keys(data);
+  const dataKeys = operatingSystemKnownDataValues.filter(
+    operatingSystemKnownDataValue => data[operatingSystemKnownDataValue]
+  );
+
   for (const key of dataKeys) {
     const knownDataDetails = getOperatingSystemKnownDataDetails(
       data,
       key as OperatingSystemKnownDataType
     );
-
-    if (key === null || !knownDataDetails) {
-      continue;
-    }
 
     knownData.push({
       key,

@@ -9,14 +9,15 @@ import petname
 import random
 import six
 import warnings
+from binascii import hexlify
+from hashlib import sha1
+from uuid import uuid4
 from importlib import import_module
 
 from django.contrib.auth.models import AnonymousUser
 from django.db import transaction
 from django.utils import timezone
 from django.utils.text import slugify
-from hashlib import sha1
-from uuid import uuid4
 
 from sentry.event_manager import EventManager
 from sentry.constants import SentryAppStatus
@@ -29,10 +30,11 @@ from sentry.incidents.models import (
     AlertRuleThresholdType,
     AlertRuleTriggerAction,
     Incident,
+    IncidentActivity,
     IncidentGroup,
     IncidentProject,
     IncidentSeen,
-    IncidentActivity,
+    IncidentType,
 )
 from sentry.mediators import (
     sentry_apps,
@@ -301,7 +303,7 @@ class Factories(object):
     @staticmethod
     def create_release(project, user=None, version=None, date_added=None):
         if version is None:
-            version = os.urandom(20).encode("hex")
+            version = hexlify(os.urandom(20))
 
         if date_added is None:
             date_added = timezone.now()
@@ -763,6 +765,7 @@ class Factories(object):
             date_started=date_started or timezone.now(),
             date_detected=date_detected or timezone.now(),
             date_closed=date_closed or timezone.now(),
+            type=IncidentType.ALERT_TRIGGERED.value,
         )
         for project in projects:
             IncidentProject.objects.create(incident=incident, project=project)

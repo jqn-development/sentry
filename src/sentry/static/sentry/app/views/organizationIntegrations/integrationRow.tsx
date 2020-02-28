@@ -37,7 +37,10 @@ const IntegrationRow = (props: Props) => {
     configurations,
   } = props;
 
-  const baseUrl = `/settings/${organization.slug}/${urlMap[type]}/${slug}/`;
+  const baseUrl =
+    publishStatus === 'internal'
+      ? `/settings/${organization.slug}/developer-settings/${slug}/`
+      : `/settings/${organization.slug}/${urlMap[type]}/${slug}/`;
 
   const renderDetails = () => {
     if (type === 'sentryApp') {
@@ -79,7 +82,7 @@ const Container = styled('div')`
 
 const IntegrationName = styled(Link)`
   font-weight: bold;
-  color: ${props => props.theme.textColor};
+  color: ${p => p.theme.blue};
 `;
 
 const IntegrationDetails = styled('div')`
