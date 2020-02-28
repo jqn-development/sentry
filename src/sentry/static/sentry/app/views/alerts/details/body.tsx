@@ -1,9 +1,8 @@
+import styled from '@emotion/styled';
 import {RouteComponentProps} from 'react-router/lib/Router';
 import React from 'react';
 import moment from 'moment-timezone';
-import styled from '@emotion/styled';
 
-import styled from '@emotion/styled';
 import {
   AlertRuleAggregations,
   AlertRuleThresholdType,

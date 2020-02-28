@@ -1,7 +1,7 @@
+import styled from '@emotion/styled';
 import React from 'react';
 import {RouteComponentProps} from 'react-router/lib/Router';
 
-import styled from '@emotion/styled';
 import AsyncView from 'app/views/asyncView';
 import {PageContent} from 'app/styles/organization';
 import space from 'app/styles/space';

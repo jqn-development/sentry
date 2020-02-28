@@ -1,9 +1,9 @@
+import styled from '@emotion/styled';
 import React from 'react';
 import {Link} from 'react-router';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 
-import styled from '@emotion/styled';
 import TimeSince from 'app/components/timeSince';
 import {t, tn, tct} from 'app/locale';
 

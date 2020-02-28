@@ -1,7 +1,7 @@
+import styled from '@emotion/styled';
 import React from 'react';
 import {Location} from 'history';
 
-import styled from '@emotion/styled';
 import {t} from 'app/locale';
 import {Event, Organization} from 'app/types';
 import Link from 'app/components/links/link';

@@ -1,3 +1,4 @@
+import styled from '@emotion/styled';
 import throttle from 'lodash/throttle';
 import PropTypes from 'prop-types';
 import React from 'react';
@@ -5,7 +6,6 @@ import ReactDOM from 'react-dom';
 import zxcvbn from 'zxcvbn';
 import {css} from '@emotion/core';
 
-import styled from '@emotion/styled';
 import {tct} from 'app/locale';
 import theme from 'app/utils/theme';
 

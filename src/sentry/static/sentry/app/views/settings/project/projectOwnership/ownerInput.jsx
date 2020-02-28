@@ -1,9 +1,9 @@
+import styled from '@emotion/styled';
 import {Flex} from 'reflexbox';
 import PropTypes from 'prop-types';
 import React from 'react';
 import TextareaAutosize from 'react-autosize-textarea';
 
-import styled from '@emotion/styled';
 import {Client} from 'app/api';
 import memberListStore from 'app/stores/memberListStore';
 import ProjectsStore from 'app/stores/projectsStore';

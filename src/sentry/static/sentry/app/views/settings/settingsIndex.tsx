@@ -1,9 +1,9 @@
+import styled from '@emotion/styled';
 import DocumentTitle from 'react-document-title';
 import PropTypes from 'prop-types';
 import React from 'react';
 import {css} from '@emotion/core';
 
-import styled from '@emotion/styled';
 import {t} from 'app/locale';
 import OrganizationAvatar from 'app/components/avatar/organizationAvatar';
 import UserAvatar from 'app/components/avatar/userAvatar';

@@ -1,3 +1,4 @@
+import styled from '@emotion/styled';
 import React from 'react';
 import * as Sentry from '@sentry/browser';
 import * as ReactRouter from 'react-router';
@@ -5,7 +6,6 @@ import {Location} from 'history';
 import omit from 'lodash/omit';
 import isEqual from 'lodash/isEqual';
 
-import styled from '@emotion/styled';
 import {Organization, GlobalSelection} from 'app/types';
 import {PageContent} from 'app/styles/organization';
 import {Client} from 'app/api';

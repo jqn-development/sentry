@@ -1,3 +1,4 @@
+import styled from '@emotion/styled';
 import PropTypes from 'prop-types';
 import React from 'react';
 import {withRouter} from 'react-router';
@@ -5,7 +6,6 @@ import {css} from '@emotion/core';
 import classNames from 'classnames';
 import capitalize from 'lodash/capitalize';
 
-import styled from '@emotion/styled';
 import SentryTypes from 'app/sentryTypes';
 import EventOrGroupTitle from 'app/components/eventOrGroupTitle';
 import Tooltip from 'app/components/tooltip';

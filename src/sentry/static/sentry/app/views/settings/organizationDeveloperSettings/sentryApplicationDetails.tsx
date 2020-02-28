@@ -1,3 +1,4 @@
+import styled from '@emotion/styled';
 import React from 'react';
 import {browserHistory} from 'react-router';
 import {Observer} from 'mobx-react';
@@ -26,7 +27,6 @@ import routeTitleGen from 'app/utils/routeTitle';
 import DateTime from 'app/components/dateTime';
 import Button from 'app/components/button';
 import EmptyMessage from 'app/views/settings/components/emptyMessage';
-import styled from '@emotion/styled';
 import {
   addSentryAppToken,
   removeSentryAppToken,

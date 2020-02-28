@@ -1,9 +1,9 @@
+import styled from '@emotion/styled';
 import React from 'react';
 import * as ReactRouter from 'react-router';
 import {Location} from 'history';
 import isEqual from 'lodash/isEqual';
 
-import styled from '@emotion/styled';
 import {Organization} from 'app/types';
 import {getUtcToLocalDateObject} from 'app/utils/dates';
 import {Client} from 'app/api';

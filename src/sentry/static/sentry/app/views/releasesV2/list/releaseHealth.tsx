@@ -1,5 +1,5 @@
-import React from 'react';
 import styled from '@emotion/styled';
+import React from 'react';
 
 import {ProjectRelease} from 'app/types';
 import {PanelHeader, PanelBody, PanelItem} from 'app/components/panels';

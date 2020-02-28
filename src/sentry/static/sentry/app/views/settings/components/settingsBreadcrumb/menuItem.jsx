@@ -1,6 +1,6 @@
+import styled from '@emotion/styled';
 import React from 'react';
 
-import styled from '@emotion/styled';
 import overflowEllipsis from 'app/styles/overflowEllipsis';
 
 class MenuItem extends React.Component {

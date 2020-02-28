@@ -1,9 +1,9 @@
+import styled from '@emotion/styled';
 import PropTypes from 'prop-types';
 import React from 'react';
 import Reflux from 'reflux';
 import createReactClass from 'create-react-class';
 
-import styled from '@emotion/styled';
 import {t} from 'app/locale';
 import Button from 'app/components/button';
 import ServiceIncidentStore from 'app/stores/serviceIncidentStore';

@@ -1,3 +1,4 @@
+import styled from '@emotion/styled';
 import {ClassNames} from '@emotion/core';
 import PropTypes from 'prop-types';
 import React from 'react';
@@ -5,7 +6,6 @@ import $ from 'jquery';
 import createReactClass from 'create-react-class';
 import Reflux from 'reflux';
 
-import styled from '@emotion/styled';
 import theme from 'app/utils/theme';
 import {
   registerAnchor,

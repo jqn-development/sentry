@@ -1,7 +1,7 @@
+import styled from '@emotion/styled';
 import {css} from '@emotion/core';
 
 import space from 'app/styles/space';
-import styled from '@emotion/styled';
 
 type Props = {
   stacked?: boolean;

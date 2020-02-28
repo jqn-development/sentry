@@ -1,8 +1,8 @@
 import React from 'react';
+import ProjectAlertSettings from 'app/views/settings/projectAlerts/projectAlertSettings';
 
 import {shallow} from 'sentry-test/enzyme';
 import {Client} from 'app/api';
-import ProjectAlertSettings from 'app/views/settings/projectAlerts/projectAlertSettings';
 
 describe('ProjectAlertSettings', function() {
   let org;

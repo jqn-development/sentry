@@ -1,7 +1,7 @@
+import styled from '@emotion/styled';
 import React from 'react';
 import get from 'lodash/get';
 
-import styled from '@emotion/styled';
 import {t} from 'app/locale';
 import EventView from 'app/views/eventsV2/eventView';
 

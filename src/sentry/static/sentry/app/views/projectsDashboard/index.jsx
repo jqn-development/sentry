@@ -1,3 +1,4 @@
+import styled from '@emotion/styled';
 import {Link} from 'react-router';
 import LazyLoad from 'react-lazyload';
 import PropTypes from 'prop-types';
@@ -5,7 +6,6 @@ import React from 'react';
 import uniq from 'lodash/uniq';
 import flatten from 'lodash/flatten';
 
-import styled from '@emotion/styled';
 import {sortProjects} from 'app/utils';
 import {t} from 'app/locale';
 import LoadingError from 'app/components/loadingError';

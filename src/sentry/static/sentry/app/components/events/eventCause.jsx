@@ -1,16 +1,15 @@
+import styled from '@emotion/styled';
 import PropTypes from 'prop-types';
 import React from 'react';
 import uniqBy from 'lodash/uniqBy';
 import flatMap from 'lodash/flatMap';
 
-import styled from '@emotion/styled';
 import CommitRow from 'app/components/commitRow';
 import {IconAdd, IconSubtract} from 'app/icons';
 import {Panel} from 'app/components/panels';
 import {DataSection, CauseHeader} from 'app/components/events/styles';
 import withApi from 'app/utils/withApi';
 import space from 'app/styles/space';
-
 import {t} from 'app/locale';
 
 const ExpandButton = styled('button')`

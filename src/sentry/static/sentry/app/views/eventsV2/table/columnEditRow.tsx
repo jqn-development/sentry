@@ -1,5 +1,5 @@
-import React from 'react';
 import styled from '@emotion/styled';
+import React from 'react';
 
 import SelectControl from 'app/components/forms/selectControl';
 import {OrganizationSummary, SelectValue} from 'app/types';

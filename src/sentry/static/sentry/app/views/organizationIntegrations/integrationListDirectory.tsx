@@ -1,9 +1,9 @@
+import styled from '@emotion/styled';
 import groupBy from 'lodash/groupBy';
 import debounce from 'lodash/debounce';
 import React from 'react';
 import {RouteComponentProps} from 'react-router/lib/Router';
 
-import styled from '@emotion/styled';
 import {
   Organization,
   Integration,

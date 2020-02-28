@@ -1,9 +1,9 @@
+import styled from '@emotion/styled';
 import React from 'react';
 import PropTypes from 'prop-types';
 import {browserHistory} from 'react-router';
 import {Location} from 'history';
 
-import styled from '@emotion/styled';
 import {Client} from 'app/api';
 import {t} from 'app/locale';
 import SentryTypes from 'app/sentryTypes';

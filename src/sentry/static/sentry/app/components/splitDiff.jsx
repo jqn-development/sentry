@@ -1,8 +1,7 @@
+import styled from '@emotion/styled';
 import PropTypes from 'prop-types';
 import React from 'react';
 import {diffChars, diffWords, diffLines} from 'diff';
-
-import styled from '@emotion/styled';
 
 const diffFnMap = {
   chars: diffChars,

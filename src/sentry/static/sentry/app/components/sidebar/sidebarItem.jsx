@@ -1,9 +1,9 @@
+import styled from '@emotion/styled';
 import {withRouter} from 'react-router';
 import PropTypes from 'prop-types';
 import React from 'react';
 import {css} from '@emotion/core';
 
-import styled from '@emotion/styled';
 import Tag from 'app/views/settings/components/tag';
 import HookOrDefault from 'app/components/hookOrDefault';
 import Tooltip from 'app/components/tooltip';

@@ -1,7 +1,7 @@
+import styled from '@emotion/styled';
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import styled from '@emotion/styled';
 import {t} from 'app/locale';
 import {LightWeightOrganization, Organization, Project} from 'app/types';
 import Button from 'app/components/button';

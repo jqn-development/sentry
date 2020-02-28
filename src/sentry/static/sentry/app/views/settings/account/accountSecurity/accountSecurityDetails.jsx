@@ -4,10 +4,10 @@
  *
  * Also displays 2fa method specific details.
  */
+import styled from '@emotion/styled';
 import PropTypes from 'prop-types';
 import React from 'react';
 
-import styled from '@emotion/styled';
 import {addErrorMessage, addSuccessMessage} from 'app/actionCreators/indicator';
 import {t} from 'app/locale';
 import AsyncView from 'app/views/asyncView';

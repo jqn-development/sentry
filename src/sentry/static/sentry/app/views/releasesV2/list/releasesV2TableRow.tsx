@@ -1,6 +1,8 @@
-import React from 'react';
-
 import styled from '@emotion/styled';
+import React from 'react';
+import {ReleasesV2RowData} from 'app/views/releasesV2/list/types';
+import HealthStatus from 'app/views/releasesV2/list/healthStatus';
+
 import space from 'app/styles/space';
 import Count from 'app/components/count';
 import {
@@ -12,9 +14,7 @@ import {
 } from 'app/views/releasesV2/list/commonLayout';
 import {PanelItem} from 'app/components/panels';
 import UsersChart from 'app/views/releasesV2/list/usersChart';
-import {ReleasesV2RowData} from 'app/views/releasesV2/list/types';
 import overflowEllipsis from 'app/styles/overflowEllipsis';
-import HealthStatus from 'app/views/releasesV2/list/healthStatus';
 import LatestDeployOrReleaseTime from 'app/views/releases/list/latestDeployOrReleaseTime';
 import Version from 'app/components/version';
 

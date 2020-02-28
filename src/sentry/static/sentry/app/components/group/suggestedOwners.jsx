@@ -1,8 +1,8 @@
+import styled from '@emotion/styled';
 import PropTypes from 'prop-types';
 import React from 'react';
 import {ClassNames} from '@emotion/core';
 
-import styled from '@emotion/styled';
 import space from 'app/styles/space';
 import {assignToUser, assignToActor} from 'app/actionCreators/group';
 import {openCreateOwnershipRule} from 'app/actionCreators/modal';

@@ -1,8 +1,7 @@
-import React from 'react';
 import styled from '@emotion/styled';
+import React from 'react';
 import {LocationDescriptor} from 'history';
 
-import styled from '@emotion/styled';
 import Link from 'app/components/links/link';
 import Tooltip from 'app/components/tooltip';
 import {t} from 'app/locale';

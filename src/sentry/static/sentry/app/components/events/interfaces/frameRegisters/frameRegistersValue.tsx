@@ -1,7 +1,7 @@
+import styled from '@emotion/styled';
 import React from 'react';
 
 import {Meta} from 'app/types';
-import styled from '@emotion/styled';
 import Tooltip from 'app/components/tooltip';
 import AnnotatedText from 'app/components/events/meta/annotatedText';
 import {t} from 'app/locale';

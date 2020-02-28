@@ -1,9 +1,9 @@
+import styled from '@emotion/styled';
 import moment from 'moment';
 import React from 'react';
 import {css, keyframes} from '@emotion/core';
 import * as ReactRouter from 'react-router';
 
-import styled from '@emotion/styled';
 import {t, tct} from 'app/locale';
 import {trackAnalyticsEvent} from 'app/utils/analytics';
 import withOrganization from 'app/utils/withOrganization';

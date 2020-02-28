@@ -1,6 +1,6 @@
+import styled from '@emotion/styled';
 import React from 'react';
 
-import styled from '@emotion/styled';
 import {LightWeightOrganization, SentryApp} from 'app/types';
 import Button from 'app/components/button';
 import ConfirmDelete from 'app/components/confirmDelete';

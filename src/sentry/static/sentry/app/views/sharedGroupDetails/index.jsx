@@ -1,8 +1,8 @@
+import styled from '@emotion/styled';
 import PropTypes from 'prop-types';
 import DocumentTitle from 'react-document-title';
 import React from 'react';
 import createReactClass from 'create-react-class';
-import styled from '@emotion/styled';
 
 import {t} from 'app/locale';
 import withApi from 'app/utils/withApi';

@@ -1,7 +1,7 @@
+import styled from '@emotion/styled';
 import PropTypes from 'prop-types';
 import React from 'react';
 
-import styled from '@emotion/styled';
 import {AvatarUser} from 'app/types';
 import UserAvatar from 'app/components/avatar/userAvatar';
 import overflowEllipsis from 'app/styles/overflowEllipsis';

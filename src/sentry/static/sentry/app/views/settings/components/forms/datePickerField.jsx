@@ -1,11 +1,11 @@
 import 'react-date-range/dist/styles.css';
 import 'react-date-range/dist/theme/default.css';
 
+import styled from '@emotion/styled';
 import {Calendar} from 'react-date-range';
 import React from 'react';
 import moment from 'moment';
 
-import styled from '@emotion/styled';
 import {inputStyles} from 'app/styles/input';
 import DropdownMenu from 'app/components/dropdownMenu';
 import InlineSvg from 'app/components/inlineSvg';

@@ -1,7 +1,7 @@
+import styled from '@emotion/styled';
 import {browserHistory} from 'react-router';
 import React from 'react';
 
-import styled from '@emotion/styled';
 import {t, tct} from 'app/locale';
 import AsyncComponent from 'app/components/asyncComponent';
 import AutoSelectText from 'app/components/autoSelectText';

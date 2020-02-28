@@ -1,3 +1,4 @@
+import styled from '@emotion/styled';
 import React from 'react';
 import PropTypes from 'prop-types';
 
@@ -5,7 +6,6 @@ import {t} from 'app/locale';
 import {Meta} from 'app/types';
 import {getMeta} from 'app/components/events/meta/metaProxy';
 import AnnotatedText from 'app/components/events/meta/annotatedText';
-import styled from '@emotion/styled';
 import space from 'app/styles/space';
 
 import ContextSummaryNoSummary from './contextSummaryNoSummary';

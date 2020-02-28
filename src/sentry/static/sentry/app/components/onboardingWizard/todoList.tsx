@@ -1,5 +1,5 @@
-import React from 'react';
 import styled from '@emotion/styled';
+import React from 'react';
 
 import getOnboardingTasks from 'app/components/onboardingWizard/getOnboardingTasks';
 import TodoItem from 'app/components/onboardingWizard/toDoItem';

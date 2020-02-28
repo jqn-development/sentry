@@ -1,3 +1,4 @@
+import styled from '@emotion/styled';
 import PropTypes from 'prop-types';
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -5,7 +6,6 @@ import classNames from 'classnames';
 import {Manager, Reference, Popper} from 'react-popper';
 import {keyframes} from '@emotion/core';
 
-import styled from '@emotion/styled';
 import {fadeIn} from 'app/styles/animations';
 import space from 'app/styles/space';
 import {domId} from 'app/utils/domId';

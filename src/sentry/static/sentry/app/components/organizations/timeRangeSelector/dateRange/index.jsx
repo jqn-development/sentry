@@ -1,13 +1,13 @@
 import 'react-date-range/dist/styles.css';
 import 'react-date-range/dist/theme/default.css';
 
+import styled from '@emotion/styled';
 import {DateRangePicker} from 'react-date-range';
 import PropTypes from 'prop-types';
 import React from 'react';
 import * as Sentry from '@sentry/browser';
 import moment from 'moment';
 
-import styled from '@emotion/styled';
 import {addErrorMessage} from 'app/actionCreators/indicator';
 import {analytics} from 'app/utils/analytics';
 import {

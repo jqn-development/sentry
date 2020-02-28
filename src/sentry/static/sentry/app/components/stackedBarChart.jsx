@@ -1,10 +1,10 @@
+import styled from '@emotion/styled';
 import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import moment from 'moment-timezone';
 import isEqual from 'lodash/isEqual';
 
-import styled from '@emotion/styled';
 import Tooltip from 'app/components/tooltip';
 import Count from 'app/components/count';
 import ConfigStore from 'app/stores/configStore';

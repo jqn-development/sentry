@@ -1,6 +1,6 @@
+import styled from '@emotion/styled';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import styled from '@emotion/styled';
 
 import Button from 'app/components/button';
 import {IconAdd, IconGrabbable, IconClose} from 'app/icons';

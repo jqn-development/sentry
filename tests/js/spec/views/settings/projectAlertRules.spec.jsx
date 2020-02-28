@@ -1,7 +1,7 @@
 import React from 'react';
+import ProjectAlertRules from 'app/views/settings/projectAlerts/projectAlertRules';
 
 import {mountWithTheme} from 'sentry-test/enzyme';
-import ProjectAlertRules from 'app/views/settings/projectAlerts/projectAlertRules';
 
 describe('projectAlertRules', function() {
   let deleteMock;

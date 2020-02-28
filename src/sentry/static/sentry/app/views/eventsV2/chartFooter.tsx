@@ -1,6 +1,6 @@
+import styled from '@emotion/styled';
 import React from 'react';
 
-import styled from '@emotion/styled';
 import {t} from 'app/locale';
 import {SelectValue} from 'app/types';
 import YAxisSelector from 'app/views/events/yAxisSelector';

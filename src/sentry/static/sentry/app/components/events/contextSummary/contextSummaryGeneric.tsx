@@ -1,9 +1,9 @@
+import styled from '@emotion/styled';
 import React from 'react';
 
 import {t} from 'app/locale';
 import {getMeta} from 'app/components/events/meta/metaProxy';
 import AnnotatedText from 'app/components/events/meta/annotatedText';
-import styled from '@emotion/styled';
 import space from 'app/styles/space';
 
 import ContextSummaryNoSummary from './contextSummaryNoSummary';

@@ -1,8 +1,8 @@
+import styled from '@emotion/styled';
 import React from 'react';
 import classNames from 'classnames';
 import PropTypes from 'prop-types';
 
-import styled from '@emotion/styled';
 import Confirm from 'app/components/confirm';
 
 type DefaultProps = {

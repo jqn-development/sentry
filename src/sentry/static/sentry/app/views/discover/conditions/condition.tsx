@@ -1,7 +1,7 @@
+import styled from '@emotion/styled';
 import React from 'react';
 import {Value} from 'react-select-legacy';
 
-import styled from '@emotion/styled';
 import {t} from 'app/locale';
 import space from 'app/styles/space';
 import SelectControl from 'app/components/forms/selectControl';

@@ -1,8 +1,8 @@
+import styled from '@emotion/styled';
 import React from 'react';
 import {browserHistory} from 'react-router';
 import {Location} from 'history';
 
-import styled from '@emotion/styled';
 import {Client} from 'app/api';
 import {t} from 'app/locale';
 import {Organization, SavedQuery} from 'app/types';

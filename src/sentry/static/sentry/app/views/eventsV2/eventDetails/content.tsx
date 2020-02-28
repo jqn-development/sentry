@@ -1,9 +1,9 @@
+import styled from '@emotion/styled';
 import React from 'react';
 import {Params} from 'react-router/lib/Router';
 import {Location} from 'history';
 import PropTypes from 'prop-types';
 
-import styled from '@emotion/styled';
 import space from 'app/styles/space';
 import overflowEllipsis from 'app/styles/overflowEllipsis';
 import {t} from 'app/locale';
@@ -32,7 +32,6 @@ import TagsTable from '../tagsTable';
 import DiscoverBreadcrumb from '../breadcrumb';
 import Pagination from './pagination';
 import LineGraph from './lineGraph';
-import TagsTable from '../tagsTable';
 import LinkedIssue from './linkedIssue';
 import {SectionHeading, ContentBox, HeaderBox} from '../styles';
 import OpsBreakdown from './transaction/opsBreakdown';

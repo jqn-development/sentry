@@ -1,7 +1,7 @@
+import styled from '@emotion/styled';
 import React from 'react';
 
 import {t} from 'app/locale';
-import styled from '@emotion/styled';
 import SentryTypes from 'app/sentryTypes';
 import {analytics} from 'app/utils/analytics';
 import AsyncComponent from 'app/components/asyncComponent';

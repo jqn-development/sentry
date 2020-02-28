@@ -1,8 +1,8 @@
+import styled from '@emotion/styled';
 import PropTypes from 'prop-types';
 import React from 'react';
 import moment from 'moment';
 
-import styled from '@emotion/styled';
 import {t, tct} from 'app/locale';
 import {openInviteMembersModal} from 'app/actionCreators/modal';
 import ActorAvatar from 'app/components/avatar/actorAvatar';

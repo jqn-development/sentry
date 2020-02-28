@@ -1,7 +1,7 @@
 // TODO(matej): needs a little bit of styles tinkering when avatarSize is huge
 // pretty similar to src/sentry/static/sentry/app/components/avatar/avatarList.tsx, does it make sense to merge into one reusable list?
-import React from 'react';
 import styled from '@emotion/styled';
+import React from 'react';
 
 import {tn} from 'app/locale';
 import {Project, AvatarProject} from 'app/types';

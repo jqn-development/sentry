@@ -1,5 +1,6 @@
-import React from 'react';
 import styled from '@emotion/styled';
+import React from 'react';
+
 import space, {ValidSize} from 'app/styles/space';
 
 type ButtonBarProps = {

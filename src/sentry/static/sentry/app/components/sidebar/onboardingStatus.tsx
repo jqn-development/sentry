@@ -1,8 +1,8 @@
+import styled from '@emotion/styled';
 import PropTypes from 'prop-types';
 import React from 'react';
 import {css} from '@emotion/core';
 
-import styled from '@emotion/styled';
 import {trackAnalyticsEvent} from 'app/utils/analytics';
 import getOnboardingTasks from 'app/components/onboardingWizard/getOnboardingTasks';
 import SidebarPanel from 'app/components/sidebar/sidebarPanel';

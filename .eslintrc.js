@@ -1,4 +1,6 @@
-module.exports = {
+const eslintConfigSentryReactRulesImports = require('eslint-config-sentry-react/rules/imports');
+
+const config = {
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint', 'emotion'],
   extends: ['sentry-app/strict'],
@@ -30,3 +32,25 @@ module.exports = {
     },
   ],
 };
+
+//reuses the common rule import/order from the package eslint-config-sentry-react
+config.rules['import/order'] =
+  eslintConfigSentryReactRulesImports['rules']['import/order'];
+
+// and includes the pathGroups and pathGroupsExcludedImportTypes property
+config.rules['import/order'][1] = {
+  ...config.rules['import/order'][1],
+  pathGroups: [
+    {
+      pattern: '@emotion/styled',
+      group: 'external',
+    },
+    {
+      pattern: 'sentry*/**',
+      group: 'internal',
+    },
+  ],
+  pathGroupsExcludedImportTypes: ['buildin'],
+};
+
+module.exports = config;

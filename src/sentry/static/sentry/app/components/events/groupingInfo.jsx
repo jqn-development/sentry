@@ -1,8 +1,8 @@
+import styled from '@emotion/styled';
 import React from 'react';
 import PropTypes from 'prop-types';
 import isObject from 'lodash/isObject';
 
-import styled from '@emotion/styled';
 import AsyncComponent from 'app/components/asyncComponent';
 import DropdownAutoComplete from 'app/components/dropdownAutoComplete';
 import DropdownButton from 'app/components/dropdownButton';
@@ -13,7 +13,6 @@ import SentryTypes from 'app/sentryTypes';
 import {t} from 'app/locale';
 import KeyValueList from 'app/components/events/interfaces/keyValueList/keyValueList';
 import space from 'app/styles/space';
-
 import withOrganization from 'app/utils/withOrganization';
 
 export const GroupingConfigItem = styled(

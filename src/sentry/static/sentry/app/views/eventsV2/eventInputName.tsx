@@ -1,7 +1,7 @@
+import styled from '@emotion/styled';
 import React from 'react';
 import {browserHistory} from 'react-router';
 
-import styled from '@emotion/styled';
 import {Client} from 'app/api';
 import {t} from 'app/locale';
 import overflowEllipsis from 'app/styles/overflowEllipsis';

@@ -1,7 +1,7 @@
+import styled from '@emotion/styled';
 import {RouteComponentProps} from 'react-router/lib/Router';
 import React from 'react';
 
-import styled from '@emotion/styled';
 import {Panel, PanelAlert, PanelBody, PanelHeader} from 'app/components/panels';
 import {ProjectKey} from 'app/views/settings/project/projectKeys/types';
 import {t} from 'app/locale';

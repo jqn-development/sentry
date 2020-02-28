@@ -1,3 +1,4 @@
+import styled from '@emotion/styled';
 import {ClassNames} from '@emotion/core';
 import {browserHistory} from 'react-router';
 import PropTypes from 'prop-types';
@@ -7,7 +8,6 @@ import * as Sentry from '@sentry/browser';
 import debounce from 'lodash/debounce';
 import createReactClass from 'create-react-class';
 
-import styled from '@emotion/styled';
 import {
   DEFAULT_DEBOUNCE_DURATION,
   MAX_AUTOCOMPLETE_RELEASES,

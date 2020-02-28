@@ -1,10 +1,10 @@
+import styled from '@emotion/styled';
 import {ModalBody, ModalHeader} from 'react-bootstrap';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Reflux from 'reflux';
 import createReactClass from 'create-react-class';
 
-import styled from '@emotion/styled';
 import {Organization, Project} from 'app/types';
 import {t} from 'app/locale';
 import LoadingIndicator from 'app/components/loadingIndicator';

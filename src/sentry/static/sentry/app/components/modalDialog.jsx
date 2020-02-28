@@ -1,7 +1,7 @@
+import styled from '@emotion/styled';
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import styled from '@emotion/styled';
 import InlineSvg from 'app/components/inlineSvg';
 import space from 'app/styles/space';
 import {callIfFunction} from 'app/utils/callIfFunction';

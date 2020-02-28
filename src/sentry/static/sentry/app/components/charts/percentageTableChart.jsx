@@ -1,10 +1,10 @@
+import styled from '@emotion/styled';
 import {Link} from 'react-router';
 import PropTypes from 'prop-types';
 import React from 'react';
 import classNames from 'classnames';
 import isPropValid from '@emotion/is-prop-valid';
 
-import styled from '@emotion/styled';
 import {PanelItem} from 'app/components/panels';
 import {t} from 'app/locale';
 import Count from 'app/components/count';

@@ -1,9 +1,9 @@
+import styled from '@emotion/styled';
 import $ from 'jquery';
 import {browserHistory} from 'react-router';
 import React from 'react';
 import {Location} from 'history';
 
-import styled from '@emotion/styled';
 import {Organization, Project} from 'app/types';
 import {Panel, PanelBody, PanelHeader, PanelItem} from 'app/components/panels';
 import {sortProjects} from 'app/utils';

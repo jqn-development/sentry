@@ -1,9 +1,9 @@
+import styled from '@emotion/styled';
 import {ClassNames} from '@emotion/core';
 import PropTypes from 'prop-types';
 import React from 'react';
 import capitalize from 'lodash/capitalize';
 
-import styled from '@emotion/styled';
 import InlineSvg from 'app/components/inlineSvg';
 import space from 'app/styles/space';
 import Hovercard from 'app/components/hovercard';

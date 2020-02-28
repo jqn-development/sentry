@@ -1,8 +1,8 @@
+import styled from '@emotion/styled';
 import React from 'react';
 import get from 'lodash/get';
 import map from 'lodash/map';
 
-import styled from '@emotion/styled';
 import {t} from 'app/locale';
 import {getParams} from 'app/components/organizations/globalSelectionHeader/getParams';
 import DateTime from 'app/components/dateTime';

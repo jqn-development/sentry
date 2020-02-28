@@ -1,9 +1,9 @@
+import styled from '@emotion/styled';
 import {ClassNames} from '@emotion/core';
 import PropTypes from 'prop-types';
 import React from 'react';
 import {Link} from 'react-router';
 
-import styled from '@emotion/styled';
 import SentryTypes from 'app/sentryTypes';
 import {analytics} from 'app/utils/analytics';
 import {ALL_ACCESS_PROJECTS} from 'app/constants/globalSelectionHeader';

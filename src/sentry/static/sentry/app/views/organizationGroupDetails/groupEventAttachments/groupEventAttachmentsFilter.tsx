@@ -1,10 +1,10 @@
+import styled from '@emotion/styled';
 import React from 'react';
 import omit from 'lodash/omit';
 import xor from 'lodash/xor';
 import {withRouter} from 'react-router';
 import {WithRouterProps} from 'react-router/lib/withRouter';
 
-import styled from '@emotion/styled';
 import space from 'app/styles/space';
 import {t} from 'app/locale';
 import ButtonBar from 'app/components/buttonBar';

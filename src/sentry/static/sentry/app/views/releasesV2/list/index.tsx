@@ -1,8 +1,8 @@
+import styled from '@emotion/styled';
 import React from 'react';
 import {Location} from 'history';
 import * as ReactRouter from 'react-router';
 import {Params} from 'react-router/lib/Router';
-import styled from '@emotion/styled';
 import pick from 'lodash/pick';
 
 import {t} from 'app/locale';

@@ -19,7 +19,6 @@ import * as React from 'react';
 //            in some resolver config.
 // eslint-disable-next-line import/no-unresolved
 import * as CSS from 'csstype';
-
 import styled from '@original-emotion/styled';
 
 import theme from './utils/theme';

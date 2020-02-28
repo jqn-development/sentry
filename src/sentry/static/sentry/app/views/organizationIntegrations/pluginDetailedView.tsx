@@ -1,6 +1,6 @@
+import styled from '@emotion/styled';
 import React from 'react';
 
-import styled from '@emotion/styled';
 import {PluginWithProjectList, PluginProjectItem} from 'app/types';
 import space from 'app/styles/space';
 import withOrganization from 'app/utils/withOrganization';

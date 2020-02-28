@@ -3,9 +3,9 @@
  * Allows user to leave a comment on an incident as well as
  * fetch and render existing activity items.
  */
+import styled from '@emotion/styled';
 import React from 'react';
 
-import styled from '@emotion/styled';
 import space from 'app/styles/space';
 
 const DateDivider = styled(function DateDivider({children, ...props}) {

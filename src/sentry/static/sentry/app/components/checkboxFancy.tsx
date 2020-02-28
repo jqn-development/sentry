@@ -1,8 +1,8 @@
+import styled from '@emotion/styled';
 import React from 'react';
 import {css} from '@emotion/core';
 import PropTypes from 'prop-types';
 
-import styled from '@emotion/styled';
 import InlineSvg from 'app/components/inlineSvg';
 
 type Props = {

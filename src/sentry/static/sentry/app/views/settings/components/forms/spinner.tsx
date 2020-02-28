@@ -1,6 +1,5 @@
-import {keyframes} from '@emotion/core';
-
 import styled from '@emotion/styled';
+import {keyframes} from '@emotion/core';
 
 const spin = keyframes`
   0% {

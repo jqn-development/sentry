@@ -1,7 +1,7 @@
+import styled from '@emotion/styled';
 import React from 'react';
 import keyBy from 'lodash/keyBy';
 
-import styled from '@emotion/styled';
 import {Integration, IntegrationProvider} from 'app/types';
 import {RequestOptions} from 'app/api';
 import {addErrorMessage} from 'app/actionCreators/indicator';

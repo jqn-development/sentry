@@ -1,9 +1,9 @@
+import styled from '@emotion/styled';
 import {RouteComponentProps} from 'react-router/lib/Router';
 import {browserHistory} from 'react-router';
 import React from 'react';
 import * as Sentry from '@sentry/browser';
 
-import styled from '@emotion/styled';
 import {Member, Organization, Team} from 'app/types';
 import {Panel, PanelBody, PanelHeader, PanelItem} from 'app/components/panels';
 import {

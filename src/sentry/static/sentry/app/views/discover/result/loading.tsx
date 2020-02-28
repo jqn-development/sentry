@@ -1,6 +1,6 @@
+import styled from '@emotion/styled';
 import React from 'react';
 
-import styled from '@emotion/styled';
 import LoadingIndicator from 'app/components/loadingIndicator';
 
 import {LoadingContainer} from '../styles';

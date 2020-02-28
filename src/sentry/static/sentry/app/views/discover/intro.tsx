@@ -1,6 +1,6 @@
+import styled from '@emotion/styled';
 import React from 'react';
 
-import styled from '@emotion/styled';
 import {tct, t} from 'app/locale';
 import ExternalLink from 'app/components/links/externalLink';
 import Button from 'app/components/button';

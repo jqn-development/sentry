@@ -1,9 +1,9 @@
+import styled from '@emotion/styled';
 import {AutoSizer, List} from 'react-virtualized';
 import PropTypes from 'prop-types';
 import React from 'react';
 import flatMap from 'lodash/flatMap';
 
-import styled from '@emotion/styled';
 import {t} from 'app/locale';
 import AutoComplete from 'app/components/autoComplete';
 import DropdownBubble from 'app/components/dropdownBubble';

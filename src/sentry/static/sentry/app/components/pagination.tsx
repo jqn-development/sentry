@@ -1,9 +1,9 @@
+import styled from '@emotion/styled';
 import {browserHistory} from 'react-router';
 import PropTypes from 'prop-types';
 import React from 'react';
 import {Query} from 'history';
 
-import styled from '@emotion/styled';
 import {t} from 'app/locale';
 import parseLinkHeader from 'app/utils/parseLinkHeader';
 import {callIfFunction} from 'app/utils/callIfFunction';

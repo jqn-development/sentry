@@ -1,9 +1,9 @@
+import styled from '@emotion/styled';
 import {css} from '@emotion/core';
 import PropTypes from 'prop-types';
 import React from 'react';
 import isPropValid from '@emotion/is-prop-valid';
 
-import styled from '@emotion/styled';
 import {growIn} from 'app/styles/animations';
 
 type Props = {

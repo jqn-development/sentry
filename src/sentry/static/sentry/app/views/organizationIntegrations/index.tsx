@@ -1,10 +1,10 @@
+import styled from '@emotion/styled';
 import compact from 'lodash/compact';
 import groupBy from 'lodash/groupBy';
 import keyBy from 'lodash/keyBy';
 import React from 'react';
 import {RouteComponentProps} from 'react-router/lib/Router';
 
-import styled from '@emotion/styled';
 import {
   Organization,
   Integration,

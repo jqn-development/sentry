@@ -1,7 +1,7 @@
+import styled from '@emotion/styled';
 import PropTypes from 'prop-types';
 import React from 'react';
 
-import styled from '@emotion/styled';
 import UserAvatar from 'app/components/avatar/userAvatar';
 import {BannerContainer, BannerSummary} from 'app/components/events/styles';
 import CommitLink from 'app/components/commitLink';

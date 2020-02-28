@@ -1,7 +1,7 @@
+import styled from '@emotion/styled';
 import React from 'react';
 import {browserHistory} from 'react-router';
 
-import styled from '@emotion/styled';
 import overflowEllipsis from 'app/styles/overflowEllipsis';
 import theme from 'app/utils/theme';
 import {IconBookmark} from 'app/icons/iconBookmark';

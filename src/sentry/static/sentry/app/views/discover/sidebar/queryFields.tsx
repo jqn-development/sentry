@@ -1,6 +1,6 @@
+import styled from '@emotion/styled';
 import React from 'react';
 
-import styled from '@emotion/styled';
 import {t} from 'app/locale';
 import TextField from 'app/components/forms/textField';
 import NumberField from 'app/components/forms/numberField';

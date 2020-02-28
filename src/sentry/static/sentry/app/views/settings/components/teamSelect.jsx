@@ -1,8 +1,8 @@
+import styled from '@emotion/styled';
 import PropTypes from 'prop-types';
 import React from 'react';
 import debounce from 'lodash/debounce';
 
-import styled from '@emotion/styled';
 import {t} from 'app/locale';
 import Button from 'app/components/button';
 import Confirm from 'app/components/confirm';

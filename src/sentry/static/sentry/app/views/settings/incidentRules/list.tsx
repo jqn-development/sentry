@@ -1,9 +1,9 @@
+import styled from '@emotion/styled';
 import {Link} from 'react-router';
 import {RouteComponentProps} from 'react-router/lib/Router';
 import React from 'react';
 import {css} from '@emotion/core';
 
-import styled from '@emotion/styled';
 import {Panel, PanelBody, PanelHeader, PanelItem} from 'app/components/panels';
 import {t} from 'app/locale';
 import AsyncView from 'app/views/asyncView';

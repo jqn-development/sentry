@@ -1,7 +1,7 @@
+import styled from '@emotion/styled';
 import PropTypes from 'prop-types';
 import React from 'react';
 
-import styled from '@emotion/styled';
 import {imageStyle} from 'app/components/avatar/styles';
 
 const COLORS = [
